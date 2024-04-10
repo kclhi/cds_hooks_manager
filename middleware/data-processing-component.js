@@ -157,9 +157,7 @@ export default {
         logger.error(
           `Error in function applyActions: ${JSON.stringify(
             error
-          )} with hookcontextDatahookcontextData ${JSON.stringify(
-            body
-          )} and processingActions ${JSON.stringify(
+          )}  with processingActions ${JSON.stringify(
             actionsObj["processingActions"]
           )} and dataPathMap ${JSON.stringify(actionsObj[dataPathMap])}.`
         );

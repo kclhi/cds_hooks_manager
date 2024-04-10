@@ -8,6 +8,7 @@ var router = express.Router();
 //const logger = require('../config/winston');
 
 ////////////////////////////////////////////////////////////////////////
+///CDS DISCOVERY
 
 /* GET cds-services on this server. */
 router.get('/', 
@@ -16,6 +17,9 @@ router.get('/',
 /* GET cds-services by CIG model on this server. */
 router.get("/gms/:gms_id", 
       asyncMiddleware(getCdsServicesByCig));
+      
+/////////////////////////////////////////////////////////////////////////
+///CDS SERVICES
 
 /* POST trigger some hook attached to some CIG authoring tool */
 router.post(

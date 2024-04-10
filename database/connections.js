@@ -28,7 +28,7 @@ const options = {
 };
 
 
-//HOST_defaultHOST_default and PORT_default of MONGODB
+//HOST_default and PORT_default of MONGODB
 const HOST_default =  "localhost";
 const PORT_default =  "27017";
 ///CDS SERVICES OFFERED: MONGODB CONNECTION
